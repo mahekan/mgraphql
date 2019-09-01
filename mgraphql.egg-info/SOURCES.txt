@@ -1,0 +1,7 @@
+README.md
+setup.py
+mgraphql.egg-info/PKG-INFO
+mgraphql.egg-info/SOURCES.txt
+mgraphql.egg-info/dependency_links.txt
+mgraphql.egg-info/requires.txt
+mgraphql.egg-info/top_level.txt

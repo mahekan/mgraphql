@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mgraphql
+Version: 0.0.1
+Summary: Python library link with graphql
+Home-page: https://github.com/your_package/homepage/
+Author: ayaz abdi
+Author-email: mayazabdi@gmail.com
+License: UNKNOWN
+Description: # mgraphql
+        Python library link with graphql
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
