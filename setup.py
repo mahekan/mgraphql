@@ -7,13 +7,13 @@ requirements = ["requests>=2"]
  
 setup(
     name="mgraphql",
-    version="0.0.1",
+    version="0.0.2",
     author="ayaz abdi",
     author_email="mayazabdi@gmail.com",
     description="Python library link with graphql",
     long_description=readme,
     long_description_content_type="text/markdown",
-    url="https://github.com/your_package/homepage/",
+    url="https://github.com/mahekan/mgraphql",
     packages=find_packages(),
     install_requires=requirements,
     classifiers=[

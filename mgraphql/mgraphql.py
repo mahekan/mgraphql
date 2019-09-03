@@ -8,6 +8,7 @@ class Mgraphql:
     self.token = token
   def query(self,query,): 
     self.query = query
+    print (self.token)
     self.headers = {'Authorization':self.token}
     self.request = requests.post(self.url, json={'query': self.query},headers = self.headers)
     if self.request.status_code == 200:
