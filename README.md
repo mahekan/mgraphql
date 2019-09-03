@@ -3,9 +3,9 @@ Python library link with graphql
 
 ------------------------------------------------
 
-from mgraphql import Mgraphql
+```from mgraphql import Mgraphql```
 
-query ="""
+```query ="""
 {
   viewer {
     login
@@ -18,23 +18,35 @@ query ="""
   }
 }
 """
+```
 
-variables = {
+``` variables = {
 
 your variables
 
 type Python Dictionary 
 
 }
+```
 
+```
 url = 'https://api.github.com/graphql'
+```
 
-#token defult none
+# token default none
+```
 mgraph = Mgraphql(url,token)
+```
 
+```
 query =mgraph.query(query)
+```
 
+```
 mutation =mgraph.mutation(query,variables)
+```
 
-#print(mutation)
+```
+print(mutation)
 #print(query)
+```
