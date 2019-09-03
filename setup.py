@@ -7,7 +7,7 @@ requirements = ["requests>=2"]
  
 setup(
     name="mgraphql",
-    version="0.0.2",
+    version="0.0.4",
     author="ayaz abdi",
     author_email="mayazabdi@gmail.com",
     description="Python library link with graphql",
