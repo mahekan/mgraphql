@@ -3,9 +3,12 @@ Python library link with graphql
 
 ------------------------------------------------
 
-```from mgraphql import Mgraphql```
+```
+from mgraphql import Mgraphql
+```
 
-```query ="""
+```
+query ="""
 {
   viewer {
     login
@@ -20,7 +23,8 @@ Python library link with graphql
 """
 ```
 
-``` variables = {
+```
+variables = {
 
 your variables
 
@@ -48,5 +52,5 @@ mutation =mgraph.mutation(query,variables)
 
 ```
 print(mutation)
-#print(query)
+print(query)
 ```
