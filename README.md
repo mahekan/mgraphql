@@ -8,6 +8,8 @@ from mgraphql import Mgraphql
 ```
 
 ```
+for send variables type ($variables name)
+
 query ="""
 {
   viewer {
