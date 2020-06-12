@@ -7,7 +7,7 @@ requirements = ["requests>=2"]
  
 setup(
     name="mgraphql",
-    version="0.0.4",
+    version="0.0.6",
     author="ayaz abdi",
     author_email="mayazabdi@gmail.com",
     description="Python library link with graphql",
@@ -17,7 +17,7 @@ setup(
     packages=find_packages(),
     install_requires=requirements,
     classifiers=[
-        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
     ],
 )
